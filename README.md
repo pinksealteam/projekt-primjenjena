@@ -10,7 +10,7 @@ Ovaj projekt predstavlja jednostavnu web aplikaciju koja generira brojeve prema 
    Klonirajte repozitorij ili preuzmite izvorni kod.
 
    ```bash
-   git clone https://github.com/vas-username/generator-brojeva.git
+   git clone https://github.com/pinksealteam/projekt-primjenjena.git
    ```
 
 2. **Pokrenite Aplikaciju:**
@@ -34,13 +34,13 @@ Ovaj projekt predstavlja jednostavnu web aplikaciju koja generira brojeve prema 
   Ovaj program namijenjen je obrazovnim i demonstracijskim svrhama i može se prilagoditi prema potrebama korisnika.
 
 - **Autor:**
-  [Vaše Ime](https://github.com/vas-username)
+  [Vjekoslav Radic i Kristian Pavic](https://github.com/pinkseal)
 
 - **Licenca:**
   Ovaj projekt dostupan je pod [MIT Licencom](LICENSE).
 
 ## Kontakt
 
-Ako imate pitanja, prijedloge ili problema s programom, slobodno [otvorite novi "issue"](https://github.com/vas-username/generator-brojeva/issues) ili nas kontaktirajte putem e-pošte na [vasa@email.adresa](mailto:vasa@email.adresa).
+Ako imate pitanja, prijedloge ili problema s programom, slobodno [otvorite novi "issue"](https://github.com/pinksealteam/projekt-primjenjena/issues) ili nas kontaktirajte putem e-pošte na [vjekorad@email.adresa](mailto:vjekorad@gmail.com@email.adresa).
 
 Uživajte u korištenju generatora brojeva s ograničenjima!
