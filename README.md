@@ -41,6 +41,6 @@ Ovaj projekt predstavlja jednostavnu web aplikaciju koja generira brojeve prema 
 
 ## Kontakt
 
-Ako imate pitanja, prijedloge ili problema s programom, slobodno [otvorite novi "issue"](https://github.com/pinksealteam/projekt-primjenjena/issues) ili nas kontaktirajte putem e-pošte na [vjekorad@gmail.com](mailto:vjekorad@gmail.com@email.adresa).
+Ako imate pitanja, prijedloge ili problema s programom, slobodno [otvorite novi "issue"](https://github.com/pinksealteam/projekt-primjenjena/issues) ili nas kontaktirajte putem e-pošte na [vjekoslav.radic@skole.hr](mailto:vjekorad@gmail.com@email.adresa).
 
 Uživajte u korištenju generatora brojeva s ograničenjima!
