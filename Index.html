@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Ovaj HTML kod je generator brojeva. Omogućuje korisniku odabir broja znamenki i primjenu određenih ograničenja na generirani broj. -->
+<html lang="en">
+
+<head>
+    <!-- Definira skup znakova za dokument -->
+    <meta charset="UTF-8">
+    <!-- Postavlja okvir za prikaz na skalu za mobilne uređaje -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Definira naslov dokumenta -->
+    <title>Generator brojeva</title>
+    <!-- Veze na CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Prikazuje sliku logotipa -->
+        <img src="logo.png" alt="Logo">
+        <!-- Prikazuje glavni naslov -->
+        <h1>Generator Brojeva</h1>
+    </header>
+
+    <main>
+        <!-- Oznaka za padajući izbornik za odabir znamenki -->
+        <label for="digitSelect">Odaberi broj znamenaka:</label>
+        <!-- Padajući izbornik za odabir broja znamenki -->
+        <select id="digitSelect" onchange="handleDigitSelect()">
+            <option value="4">4 znamenke</option>
+            <option value="5">5 znamenke</option>
+            <option value="6">6 znamenke</option>
+            <option value="7">7 znamenke</option>
+            <option value="custom">N-znamenke</option>
+        </select>
+
+        <!-- Spremnik za prilagođeni unos znamenki, u početku skriven -->
+        <div id="customDigitsInput" style="display: none;">
+            <!-- Oznaka za prilagođeni unos znamenki -->
+            <label for="customDigits">Unesite prilagođeni broj znamenki:</label>
+            <!-- Unos za unos prilagođenog broja znamenki -->
+            <input type="number" id="customDigits" min="1">
+        </div>
+
+        <!-- Oznaka za padajući izbornik za odabir ograničenja -->
+        <label for="restrictionSelect">Odaberite Ograničenja:</label>
+        <!-- Padajući izbornik za odabir ograničenja -->
+        <select id="restrictionSelect" multiple>
+            <option value="noRepeat">Znamenke se ne ponavljaju</option>
+            <option value="divisibleBy2">Djeljivo s 2</option>
+            <option value="divisibleBy5">Djeljivo s 5</option>
+            <option value="divisibleBy10">Djeljivo s 10</option>
+            <option value="divisibleBy7Or3">Djeljivo s 7 ili 3</option>
+            <option value="positiveDigitsSum">Zbroj znamenki daje pozitivan broj</option>
+        </select>
+
+        <!-- Gumb za generiranje broja -->
+        <button onclick="generateNumber()">Generiraj broj</button>
+
+        <!-- Paragraf za prikaz rezultata -->
+        <p id="result"></p>
+    </main>
+
+    <!-- Link na JavaScript datoteku -->
+    <script src="script.js"></script>
+</body>
+
+</html>
